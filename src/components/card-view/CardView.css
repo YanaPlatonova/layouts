@@ -1,0 +1,17 @@
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(350px, 1fr));
+    column-gap: 10px;
+    row-gap: 1em;
+    justify-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    .grid { grid-template-columns: repeat(2, minmax(350px, 1fr)); }
+  }
+  
+  @media (min-width: 1024px) {
+    .grid { grid-template-columns: repeat(3, minmax(350px, 1fr)); }
+  }
+  

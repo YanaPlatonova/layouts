@@ -1,0 +1,12 @@
+ul{ 
+    display: grid;
+    gap: 2px;
+    padding-left: 0px;
+}
+
+li{
+    list-style: none;
+    /* background: #f3a1a1; */
+    background: #f5f5f5;
+    padding: 0 20px;
+}
